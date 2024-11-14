@@ -176,3 +176,50 @@
     
     }
  }
+@media(max-width:414px){
+    .contain{
+        width:100%;
+        height:100vh;
+       position: relative;
+       display: flex;
+       flex-direction: column-reverse;
+       z-index:1;
+    }
+    #eyebox{
+        width: 200px;
+        height: 0px;
+        background-color: rgba(240, 248, 255, 0.074);
+        position:absolute;
+      bottom: 390px;
+       left:50px;
+       z-index:-2;
+    }
+    .eye{
+        position:absolute;
+        top:45%;
+        left:30%;
+        right:0px;
+        width:100px;
+        height:50px;
+       
+    }
+    .eyes{
+        position:absolute;
+        top:45%;
+        left:80%;
+        right:0px;
+        width:100px;
+        height:50px;
+    
+    
+    }
+    .pupil{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: black;
+        position: absolute;
+        left: 10%;
+    
+    }  
+ }
